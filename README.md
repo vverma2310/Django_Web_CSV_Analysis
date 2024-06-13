@@ -29,7 +29,8 @@ This is a Django-based web application that allows users to upload CSV files, pe
    ```bash
    git clone <repository-url>
    cd <repository-name>
-2. Create and activate a virtual environment:   
+2. Create and activate a virtual environment:
+   ```bash 
    python -m venv venv
    source venv/bin/activate
    # On Windows use `venv\Scripts\activate`
