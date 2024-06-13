@@ -35,11 +35,12 @@ This is a Django-based web application that allows users to upload CSV files, pe
    source venv/bin/activate
    # On Windows use `venv\Scripts\activate`
 4. Install dependencies:
+   ```bash
    pip install -r requirements.txt.
-5. Apply migrations:
+6. Apply migrations:
    ```bash
    python manage.py migrate
-6. Run the development server:
+7. Run the development server:
    ```bash
    python manage.py runserver
    
